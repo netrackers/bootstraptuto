@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, 30px);
+    grid-template-rows: repeat(16, 30px);
+    gap: 5px;
+    /* width: 540px;
+    height: 480px;
+    /* border: 2px solid green; */
+}
+
+.item {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.box1 {
+    grid-area: 1 / 1 / 3 / 19 ;
+    background-color: black
+}
+.box2 {
+    grid-area: 3 / 1 / 5 / 15 ;
+    background-color: red
+}
+.box3 {
+    grid-area: 3 / 15 / 9 / 19 ;
+    background-color: aqua
+}
+.box4 {
+    grid-area: 5 / 1 / 9 / 8;
+    background-color: blue
+}
+.box5 {
+    grid-area: 5 / 8 / 9 / 15;
+    background-color: blueviolet
+}
+.box6 {
+    grid-area: 9 / 1 / 11 / 6 ;
+    background-color: brown
+}
+.box7 {
+    grid-area: 9 / 6 / 11 / 10 ;
+    background-color: chocolate
+}
+.box8 {
+    grid-area: 9 / 10 / 11 / 13 ;
+    background-color: cornflowerblue
+}
+.box9 {
+    grid-area: 9 / 13 / 11 / 19 ;
+    background-color: burlywood
+}
+.box10 {
+    grid-area: 11 / 1 / 14 / 4 ;
+    background-color: chartreuse;
+}
+.box11 {
+    grid-area: 11 / 4 / 14 / 8 ;
+    background-color: cornflowerblue
+}
+.box12 {
+    grid-area: 11 / 8 / 14 / 13 ;
+    background-color: black
+}
+.box13 {
+    grid-area: 11 / 13 / 13 / 19 ;
+    background-color: crimson
+}
+.box14 {
+    grid-area: 14 / 1 / 17 / 6 ;
+    background-color: darkred
+}
+.box15 {
+    grid-area: 14 / 6 / 17 / 11 ;
+    background-color: cornflowerblue
+}
+.box16 {
+    grid-area: 14 / 11 / 17 / 13 ;
+    background-color: lightgoldenrodyellow
+}
+.box17 {
+    grid-area: 13 / 13 / 17 / 16 ;
+    background-color: dodgerblue
+}
+.box18 {
+    grid-area: 13 / 16 / 17 / 19 ;
+    background-color: cornflowerblue
+}
